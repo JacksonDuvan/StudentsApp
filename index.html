@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Students App</title>
+</head>
+<body>
+    <h1 class="title">Students App</h1>
+    <div class="container">
+        <div class="sub_container">
+            <div class="header">
+                <h4>Add Students</h4>
+            </div>
+            <form id="form" action="" class="form"> 
+                <input id="name" class="input" type="text" placeholder="Name Student">
+                <input id="noteOne" class="input" type="number" max="5.0" min="1.0" step=".1" placeholder="Note one">
+                <input id="noteTwo" class="input" type="number" max="5.0" min="1.0"  step=".1" placeholder="Note two">
+                <input id="noteThree" class="input" type="number" max="5.0" min="1.0"  step=".1" placeholder="Note three">
+                <input type="submit" value="Save" class="submit">
+            </form>
+        </div>
+
+        <div id="table_container"></div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

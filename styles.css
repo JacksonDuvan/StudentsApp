@@ -1,0 +1,75 @@
+body{
+    font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sub_container{
+    width: 360px;
+    border: 1px solid rgba(0,0,0,0.125);
+}
+
+.container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin-top: 50px;
+}
+
+.title{
+    text-align: center;
+}
+
+.header{
+    padding: 0.6rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.03);
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+.input {
+    padding: 0.7em;
+    border: 1px solid rgba(0,0,0,0.125);
+    outline-color: #07060617;
+    margin: 10px 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.submit{
+    color: #fff;
+    font-size: 14px;
+    padding: 0.6em;
+    background-color: rgb(94, 94, 245);
+    box-shadow:3px 3px 2px rgb(94, 94, 245);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.submit:active{
+    box-shadow:none;
+    margin: 0 0 3px 3px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid rgba(0,0,0,0.125);
+}
+
+th{
+    padding: 10px 0;
+    background-color: rgba(0,0,0,0.03);
+}
+table{
+    margin-bottom: 1.5em;
+}
